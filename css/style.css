@@ -1,0 +1,211 @@
+@import "null.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&family=Pacifico&family=Supermercado+One&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Comforter:400&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap);
+@font-face {
+	font-family: "Syne Tactile";
+	src: url("../fonts/SyneTactile-Regular.woff2") format("woff2"),
+		url("../fonts/SyneTactile-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-Thin.woff2") format("woff2"), url("../fonts/Exo2-Thin.woff") format("woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-ThinItalic.woff2") format("woff2"), url("../fonts/Exo2-ThinItalic.woff") format("woff");
+	font-weight: 100;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-Regular.woff2") format("woff2"), url("../fonts/Exo2-Regular.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-BoldItalic.woff2") format("woff2"), url("../fonts/Exo2-BoldItalic.woff") format("woff");
+	font-weight: 700;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-Black.woff2") format("woff2"), url("../fonts/Exo2-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Exo2";
+	src: url("../fonts/Exo2-BlackItalic.woff2") format("woff2"), url("../fonts/Exo2-BlackItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-style: normal;
+	color: #424551;
+	line-height: 1.6;
+}
+
+.title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	color: #1e212c;
+}
+
+.text-1,
+.text-3 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 150%;
+	color: #1e212c;
+}
+
+.list {
+	line-height: 1;
+}
+.footer-1 {
+	color: red;
+}
+
+/*?====================Статья======================*/
+.title-1 {
+	font-family: "Comforter", cursive;
+	font-size: 80px;
+	color: blue;
+	text-align: center;
+}
+.article {
+	text-align: center;
+}
+
+.main {
+	font-size: 30px;
+}
+
+.block-1 > p {
+	letter-spacing: 10px;
+	color: greenyellow;
+	text-align: right;
+}
+.block-1-1 {
+	font-family: "Open Sans Condensed";
+	font-weight: 300;
+	font-size: 40px;
+	color: darkorchid;
+}
+
+.bauhouse {
+	font-family: fantasy;
+	color: chartreuse;
+	text-decoration: underline;
+}
+.colorist {
+	font-style: italic;
+	color: crimson;
+	text-decoration-line: line-through;
+}
+.block-1-2 {
+	font-family: "Syne Tactile", cursive;
+	text-align: right;
+}
+.subtitle-1 {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: red;
+	text-align: center;
+}
+.block-2 {
+	font-family: "Exo2";
+}
+.colors {
+	text-decoration: underline;
+	color: black;
+}
+
+.blue {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: blue;
+}
+.yellow {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: yellow;
+}
+.red {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: red;
+}
+.secondary-colors {
+	font-weight: 100;
+	font-style: italic;
+	line-height: 2.5;
+	color: darkblue;
+}
+
+.green {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: green;
+}
+.orange {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: orangered;
+}
+.purple {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: purple;
+}
+
+.tertiary-colors {
+	font-weight: 900;
+	font-style: italic;
+	color: crimson;
+}
+.tertiary-colors .colors {
+	text-shadow: -10px 10px 10px red;
+}
+.color-1-2 {
+	font-weight: 900;
+	color: red;
+	text-decoration: overline;
+	text-shadow: 10px 10px 10px #000;
+}
+.greenyellow {
+	font-family: "Comforter", cursive;
+	font-size: 50px;
+	color: greenyellow;
+}
+
+.orangered {
+	font-weight: 100;
+	font-style: italic;
+	font-size: 50px;
+	color: orangered;
+}
+.footer {
+	font-family: "Exo2";
+	font-weight: 700;
+	font-style: italic;
+	font-size: 50px;
+	color: red;
+}
