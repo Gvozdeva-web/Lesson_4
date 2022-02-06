@@ -76,10 +76,8 @@ body {
 	color: #1e212c;
 }
 
-.list {
-	line-height: 1;
-}
 .footer-1 {
+	font-size: 50px;
 	color: red;
 }
 
